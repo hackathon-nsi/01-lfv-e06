@@ -117,8 +117,19 @@ def philip():
         h=h-10
         i=i-10
 
+    w=1
+    z=1
+    for k in range (17):
+        ImageDraw.Draw(im_new).rectangle([(100,100),(w,z)])
+        w=w+20
+        z=z+20
 
-    ImageDraw.Draw(im_new).rectangle([(200,1),(1,50)])
+    for k in range (5):
+        ImageDraw.Draw(im_new).rectangle([(500,500),(w,z)])
+        w=w-20
+        z=z-20
+
+
 
 
     # affichage de l'image
