@@ -13,8 +13,10 @@ print(im.format, im.size, im.mode)
 
 # taille de l'image
 width, height = im.size
-im_new = Image.new("RGB", (width+40,height+40), (238, 130, 238))
-decalage=10
+decalage = input ("Décalage de: ")
+decalage = int(decalage)
+im_new = Image.new("RGB", (width,height+decalage), (229, 190, 0))
+
 
     # valeurs du pixel de coordonnées x, y (l'origine (0, 0) est en haut à gauche)
 def modif_jade():
@@ -40,6 +42,9 @@ def modif_jade():
                 p_bleu =  pixel[2]
 
                 im_new.putpixel((x,y),(p_rouge,p_vert,p_bleu))
+
+
+
 ##                if x<40:
 ##                    im_new.putpixel((x,y+40),(p_rouge,p_vert,p_bleu))
 ##                else:
@@ -47,3 +52,4 @@ def modif_jade():
 
 ##    im_new.save('sortie.jpg')
     im_new.show()
+modif_jade()
