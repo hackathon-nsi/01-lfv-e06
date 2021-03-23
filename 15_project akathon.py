@@ -7,12 +7,14 @@ if __name__ == '__main__':
 
 from PIL import Image
 from PIL import ImageDraw
+from eloi import *
+from Jade import *
 
 from IPython.display import display
 import urllib.request
 
 # ouvrir une image hébergée sur internet
-im = Image.open(urllib.request.urlopen('https://raw.githubusercontent.com/hackathon-nsi/h7n-nsi-01/main/images/washington.bmp'))
+im = Image.open('PF.jpg')
 
 # créer une nouvelle image vide
 # le deuxième argument représente la taille de l'image et le troisième argument (optionnel) la couleur de remplissage au format RVB
