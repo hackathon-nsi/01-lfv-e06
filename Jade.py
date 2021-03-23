@@ -13,13 +13,14 @@ print(im.format, im.size, im.mode)
 
 # taille de l'image
 width, height = im.size
-decalage = input ("Décalage de: ")
-decalage = int(decalage)
-im_new = Image.new("RGB", (width,height+decalage), (229, 190, 0))
-
 
     # valeurs du pixel de coordonnées x, y (l'origine (0, 0) est en haut à gauche)
 def modif_jade():
+
+    decalage = input ("Décalage de: ")
+    decalage = int(decalage)
+    im_new = Image.new("RGB", (width,height+decalage), (229, 190, 0))
+
 
     for i in range(width//decalage):
         for x in range(decalage*i,decalage*i+decalage//2):
