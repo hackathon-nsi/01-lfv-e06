@@ -9,6 +9,6 @@
 <!-- ne pas effacer les lignes ci-dessus et mettre à jour la progression régulièrement -->
 
 ## JOURNAL DE BORD
-modif_jade --> fait des bades
+Fonction modif_jade --> fait des bandes
 
 ## DOCUMENTATION
