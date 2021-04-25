@@ -16,5 +16,5 @@ Eloi: Permettre le téléchargement de l'image directement via une URL
 ## DOCUMENTATION
 Fichier main.py est le fichier avec tous les fonctions.
 
-Fonction jade --> fait des bandes verticales
+Fonction modif_jade --> fait des bandes verticales
 Programme Eloi --> essai de découpe et de remplacement dans l'image 
